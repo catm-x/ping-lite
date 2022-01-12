@@ -35,8 +35,8 @@ function Ping(host, options) {
     throw new Error('Could not detect your ping binary.');
   }
 
-  if (!fs.existsSync(this._bin))
-    throw new Error('Could not detect '+this._bin+' on your system');
+  //if (!fs.existsSync(this._bin))
+  //  throw new Error('Could not detect '+this._bin+' on your system');
 
   this._i = 0;
 
